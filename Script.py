@@ -2,7 +2,7 @@
 """
 Created on Thu Jun 16 09:04:08 2022
 
-@author: M S I
+@author: sSiL3MON
 """
 
 import requests as r
