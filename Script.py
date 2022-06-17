@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jun 16 09:04:08 2022
-
+Created on Jun 2022
+Cajamarca
 @author: sSiL3MON
 """
 
@@ -15,7 +15,6 @@ print(req.text)
 
 peticion={"Verbo":req.request.method,"Ruta":req.request.url,"URL Base":req.request.path_url,"Cabecera":req.request.headers}
 respuesta={"url":req.url, 'codigo estado':req.status_code}
-
 
 
 print(" Request ".center(20,'#'))

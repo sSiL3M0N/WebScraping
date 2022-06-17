@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jun 16 14:34:37 2022
-
+Created on Jun 2022
+Cajamarca
 @author: sSiL3M0N
 """
 
