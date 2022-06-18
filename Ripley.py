@@ -33,9 +33,11 @@ for i in range(0,len(lista2)-1):
     ##lista.setdefault(tipo,precio)
     lista.setdefault(lista2[i].find(class_="product-price").text.replace("S/ ","").replace(",","."), lista2[i].find(class_="product-price-type").text)
     
-    
 
 print(lista)
+
+#valoracion
+valoracion=soup.find(class_="stars-ranking").attrs["class"][-1][-1]
         
 
 #print(soup.find("section",class_="product-info").find_all(class_="product-price-container")[1].find(class_="product-price").text)
